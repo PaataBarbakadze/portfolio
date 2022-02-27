@@ -1,0 +1,11 @@
+.divider {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(253, 90, 86, 1) 0%,
+    rgba(255, 126, 0, 1) 100%
+  );
+  width: 6em;
+  height: 0.4em;
+  margin: 3em 0 5em 10%;
+}

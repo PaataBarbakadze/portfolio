@@ -1,0 +1,77 @@
+:root {
+  --fs-logo: 1.65em;
+  --fs-navLinks: 1.3em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #1f2235;
+}
+
+.logo h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 90, 86, 1) 0%,
+    rgba(255, 126, 0, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: var(--fs-logo);
+}
+
+.nav {
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: var(--fs-navLinks);
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #fd5a56;
+}
+
+.nav_links li a:hover {
+  color: white; /*0088a9*/
+}
+
+ul {
+  list-style: none;
+}
+
+.burger {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  :root {
+    --fs-logo: 1.4em;
+    --fs-navLinks: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  :root {
+    --fs-logo: 1.2em;
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --sacle : 1;
+    --width-btn : calc(135px*var(--sacle));
+    --height-btn : calc(40px*var(--sacle));
+
+    --fs-txt : 22px;
+
+    --width-check : calc(40px*var(--sacle));
+    --height-check : calc(40px*var(--sacle));
+
+    --svg-width : calc(20px*var(--sacle));
+    --svg-margin : calc(10px*var(--sacle));
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 0.8rem;
+    width: var(--width-btn);
+    height: var(--height-btn);
+    border: none;
+    outline: none;
+    background: #3d4269;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.text{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: var(--fs-txt) !important;
+}
+
+.check-box{
+    width: var(--width-check);
+    height: var(--height-check);
+    border-radius: 20px;
+    box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: -20px;
+    opacity: 0;
+}
+
+.check-box svg{
+    width: var(--svg-width);
+    margin: var(--svg-margin);
+    background: #ff2b75;
+}
+
+svg path{
+    stroke-width: 3;
+    stroke: #fff;
+    stroke-dasharray: 34;
+    stroke-dashoffset: 34;
+    stroke-linecap: round;
+    fill: none;
+}
+
+.active{
+    background: #ff2b75;
+    transition: 1s;
+}
+
+.active .check-box{
+    background-color: #ff2b75;
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.active .text{
+    margin-right: 50px !important;
+    transition: 1s;
+}
+
+.active svg path{
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+@media only screen and (max-width: 960px){
+    :root{
+        --sacle : 0.9;
+        --fs-txt : 18px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    :root{
+        --sacle : 0.8;
+        --fs-txt : 16px;
+    }
+}

@@ -1,0 +1,86 @@
+:root{
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+
+    --fs-p: 1.5rem;
+
+    --width-photo : 400px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.left h1 , .left p, .left h2{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 50.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left h1{
+    font-size: var(--fs-h1);
+}
+
+.left h2{
+    font-size: var(--fs-h2);
+}
+
+.left p{
+    margin: 20px 0;
+    font-size: var(--fs-p);
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+}
+
+.right img{
+    width: var(--width-photo);
+    height: auto;
+    margin-left: 22%;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 960px){
+    :root{
+        --fs-h1: 1.8rem;
+        --fs-h2: 1.6rem;
+    
+        --fs-p: 1rem;
+
+        --width-photo : 230px;
+    }
+
+    .left{
+        width: 45%;
+    }
+    
+    .right{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    :root{
+        --fs-h1: 1.6rem;
+        --fs-h2: 1.4rem;
+    
+        --fs-p: 1rem;
+
+        --width-photo : 150px;
+    }
+
+    .left{
+        width: 55%;
+    }
+    
+    .right{
+        width: 45%;
+    }
+}

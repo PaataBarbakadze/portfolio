@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --fs-head:  2.5rem;
+    --fs-para: 1.5rem;
+
+    --lh-head: 5.2rem;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: #ADB0B7;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section{
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 60px;
+}
+
+.section h1 , section p{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 50.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head{
+    line-height: var(--lh-head);
+    font-size: var(--fs-head);
+}
+
+.para{
+    padding-top: 30px;
+    font-size: var(--fs-para);
+}
+
+@media only screen and (max-width: 960px) {
+    :root{
+        --fs-head: 2rem;
+        --fs-para: 1.2rem;
+
+        --lh-head: 3rem;
+    }
+
+    .section{
+        width: 75%;
+        padding-top: 45px;
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    :root{
+        --fs-head: 1.2rem;
+        --fs-para: 1rem;
+
+        --lh-head: 2.3rem;
+    }
+
+    .section{
+        width: 80%;
+        padding-top: 30px;
+    }
+
+    .para{
+        padding-top: 20px;
+    }
+  }

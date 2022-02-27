@@ -1,0 +1,21 @@
+:root{
+    --width : 175px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: var(--width);
+}
+
+@media only screen and (max-width: 960px){
+    :root{
+        --width : 150px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    :root{
+        --width : 120px;
+    }
+}

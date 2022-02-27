@@ -1,0 +1,67 @@
+.title {
+  font-size: 10em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 50.15%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timeLine-background {
+  background: white;
+  color: #403935;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.date {
+  color: white !important;
+  font-size: 20px !important;
+  background: none !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    margin-top: 1.5em;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .date {
+    color: #403935 !important;
+    background: white;
+  }
+  .title {
+    font-size: 7em;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #description {
+    margin: 1em 0 1em 0;
+    font-size: 16px;
+  }
+  .date{
+    margin: 15px 0 0 0;
+    padding-bottom: 0 !important;
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .title {
+    font-size: 4rem;
+  }
+}
