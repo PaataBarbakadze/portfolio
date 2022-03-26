@@ -4,7 +4,7 @@
 
     --fs-p: 1.5rem;
 
-    --width-photo : 400px;
+    --width-photo : 500px;
 }
 
 .section{
@@ -13,12 +13,6 @@
     margin-left: 10%;
 }
 
-.left h1 , .left p, .left h2{
-    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 50.15%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .left h1{
     font-size: var(--fs-h1);
 }
@@ -27,9 +21,10 @@
     font-size: var(--fs-h2);
 }
 
-.left p{
+.about p{
     margin: 20px 0;
     font-size: var(--fs-p);
+    margin: 20px 10%;
 }
 
 .left{
@@ -43,8 +38,19 @@
 .right img{
     width: var(--width-photo);
     height: auto;
-    margin-left: 22%;
+    margin-left: 15%;
     margin-right: 10px;
+}
+
+.left span{
+    background: #fd5a56;
+    background-clip: text;
+}
+
+@media only screen and (max-width: 1200px){
+    :root{
+        --width-photo : 400px;
+    }
 }
 
 @media only screen and (max-width: 960px){
@@ -52,9 +58,9 @@
         --fs-h1: 1.8rem;
         --fs-h2: 1.6rem;
     
-        --fs-p: 1rem;
+        --fs-p: 1.3rem;
 
-        --width-photo : 230px;
+        --width-photo : 300px;
     }
 
     .left{
@@ -63,6 +69,12 @@
     
     .right{
         width: 55%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    :root{
+        --width-photo : 225px;
     }
 }
 
@@ -73,14 +85,14 @@
     
         --fs-p: 1rem;
 
-        --width-photo : 150px;
+        --width-photo : 175px;
     }
 
     .left{
-        width: 55%;
+        width: 45%;
     }
     
     .right{
-        width: 45%;
+        width: 55%;
     }
 }

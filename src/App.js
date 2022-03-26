@@ -3,6 +3,9 @@ import Hero from "./components/Hero/Hero";
 import TimeLine from "./components/TimeLine/TimeLine";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactForm from "./components/ContactForm/ContactForm";
+import Projects from "./components/Projects/Projects";
+
+import './App.css';
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
       <Hero></Hero>
       <AboutMe></AboutMe>
       <TimeLine></TimeLine>
+      <Projects></Projects>
       <ContactForm></ContactForm>
     </div>
   );

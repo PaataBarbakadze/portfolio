@@ -7,24 +7,10 @@
     --lh-head: 5.2rem;
 }
 
-*{
-    font-family: 'Open Sans', sans-serif;
-    color: #ADB0B7;
-    padding: 0px;
-    margin: 0px;
-}
-
 .section{
     width: 60%;
     margin-left: 10%;
     padding-top: 60px;
-}
-
-.section h1 , section p{
-    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 50.15%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .head{

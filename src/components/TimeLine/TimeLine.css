@@ -2,14 +2,6 @@
   font-size: 10em;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  background: linear-gradient(
-    121.57deg,
-    #ffffff 18.77%,
-    rgba(255, 255, 255, 0.66) 50.15%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .timeLine-background {
