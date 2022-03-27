@@ -50,9 +50,18 @@ let timelineElements = [
       location: "Tbilisi, Georgia",
       description:
         "Bought hmtl, css, javascript and react courses on udemy.",
-      date: "October 2021",
+      date: "November 2021",
       icon: "school",
     },
+    {
+      id: 7,
+      title: "Udemy online curses",
+      location: "Tbilisi, Georgia",
+      description:
+        "Bought Node.js course, learnt about express, mongoDB and Next.js",
+      date: "January 2022",
+      icon: "school",
+    }
   ];
   
   export default timelineElements;
