@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c178c0d3.css",
+    "main.js": "/static/js/main.889bd0c3.js",
+    "static/media/pirateit.png": "/static/media/pirateit.94720f7d1825e1cd2b57.png",
+    "static/media/nextjs.png": "/static/media/nextjs.66612f40cc1ca604789f.png",
+    "static/media/meport.jpg": "/static/media/meport.66b28155915ed5959abf.jpg",
+    "static/media/react.png": "/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/mongodb.png": "/static/media/mongodb.c964002ecef4971216d0.png",
+    "static/media/node.png": "/static/media/node.afdc045a3ff1ae77564e.png",
+    "static/media/IconGit.svg": "/static/media/IconGit.be71f00d48597d70bf7eeb0360a66fb3.svg",
+    "static/media/IconIg.svg": "/static/media/IconIg.8ff7ce92ad753b591ed4c1d03e84c026.svg",
+    "static/media/IconFb.svg": "/static/media/IconFb.1d60f030f88d365627c35afd0f0f9d38.svg",
+    "index.html": "/index.html",
+    "main.c178c0d3.css.map": "/static/css/main.c178c0d3.css.map",
+    "main.889bd0c3.js.map": "/static/js/main.889bd0c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c178c0d3.css",
+    "static/js/main.889bd0c3.js"
+  ]
+}
