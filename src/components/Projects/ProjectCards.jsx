@@ -2,12 +2,14 @@ import React from "react";
 
 import classes from "./ProjectCards.module.css";
 
-
 const ProjectCards = ({ project }) => {
   return (
     <React.Fragment>
       <section className={classes.section}>
-        <a href="https://pirateit.netlify.app/" target="_blank" rel="noopener noreferrer"
+        <a
+          href="https://pirateit.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={project.image} alt="pirateit" className={classes.preview} />
         </a>

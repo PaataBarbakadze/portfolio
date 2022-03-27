@@ -6,6 +6,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import Projects from "./components/Projects/Projects";
 
 import './App.css';
+import Tech from "./components/Tech/Tech";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe></AboutMe>
       <TimeLine></TimeLine>
       <Projects></Projects>
+      <Tech></Tech>
       <ContactForm></ContactForm>
     </div>
   );

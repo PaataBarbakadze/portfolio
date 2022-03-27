@@ -30,12 +30,12 @@ const ContactForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
 
-    // emailjs.sendForm('service_gmail', 'template_h7upx99', form.current, 'user_bREYrIyXx3s5Ofan0B9xM')
-    // .then((result) => {
-    //     console.log(result.text);
-    // }, (error) => {
-    //     console.log(error.text);
-    // });
+    emailjs.sendForm('service_gmail', 'template_h7upx99', form.current, 'user_bREYrIyXx3s5Ofan0B9xM')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
     
   };
 

@@ -1,7 +1,8 @@
 .section{
-    margin: 30px 10%;
+    margin: 0 10%;
     display: flex;
-    justify-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header{
