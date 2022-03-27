@@ -18,11 +18,6 @@ function App() {
         <h1 className="title">Timeline</h1>
         <VerticalTimeline>
           {TimelineElements.map((element) => {
-            let isWorkIcon = element.icon === "work";
-            let showButton =
-              element.buttonText !== undefined &&
-              element.buttonText !== null &&
-              element.buttonText !== "";
 
             return (
               <VerticalTimelineElement
@@ -32,19 +27,9 @@ function App() {
               >
                 <h3 className="timeLine-background">{element.title}</h3>
                 <h5 className="timeLine-background">{element.location}</h5>
-                <p id="description" className="timeLine-background">
+                <p id="description" className="para">
                   {element.description}
                 </p>
-                {showButton && (
-                  <a
-                    className={`button ${
-                      isWorkIcon ? "workButton" : "schoolButton"
-                    }`}
-                    href="/"
-                  >
-                    {element.buttonText}
-                  </a>
-                )}
               </VerticalTimelineElement>
             );
           })}

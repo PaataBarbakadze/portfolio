@@ -21,14 +21,7 @@ const projects = [
     description:
       "Gaming site demo, made using React, Node.js, Express and MongoDB. The App is called pirateit, administrator can post new games and users can browse and download them.",
     image: pirateit,
-  },
-  {
-    id: 3,
-    title: "Pirateit",
-    description:
-      "Gaming site demo, made using React, Node.js, Express and MongoDB. The App is called pirateit, administrator can post new games and users can browse and download them.",
-    image: pirateit,
-  },
+  }
 ];
 
 const Projects = () => {

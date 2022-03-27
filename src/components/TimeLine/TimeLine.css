@@ -4,9 +4,14 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+.para{
+  all: unset;
+  color: black;
+}
+
 .timeLine-background {
-  background: white;
-  color: #403935;
+  background: white !important;
+  color: #403935 !important;
 }
 
 h3 {
