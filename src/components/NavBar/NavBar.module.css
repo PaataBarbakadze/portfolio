@@ -1,12 +1,7 @@
 :root {
   --fs-logo: 1.65em;
   --fs-navLinks: 1.3em;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #1f2235;
+  --padding-navLinks: 15px;
 }
 
 .logo h1 {
@@ -30,7 +25,7 @@
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px var(--padding-navLinks);
   font-size: var(--fs-navLinks);
 }
 
@@ -58,7 +53,16 @@ ul {
 @media only screen and (max-width: 960px) {
   :root {
     --fs-logo: 1.4em;
-    --fs-navLinks: 1.1em;
+    --fs-navLinks: 1em;
+    --padding-navLinks: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  :root {
+    --fs-logo: 1.4em;
+    --fs-navLinks: 0.9em;
+    --padding-navLinks: 5px;
   }
 }
 

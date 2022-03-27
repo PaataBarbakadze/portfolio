@@ -6,7 +6,7 @@
     .burger-nav{
         margin-top: 20px;
         display: block;
-        height: 200px;
+        height: auto;
     }
     
     .burger-nav a{

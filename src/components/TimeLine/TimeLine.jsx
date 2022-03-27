@@ -14,7 +14,7 @@ import React from "react";
 function App() {
   return (
     <React.Fragment>
-      <div>
+      <div id="timeline">
         <h1 className="title">Timeline</h1>
         <VerticalTimeline>
           {TimelineElements.map((element) => {

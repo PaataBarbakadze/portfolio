@@ -12,7 +12,7 @@ import classes from "./Tech.module.css";
 const Tech = () => {
   return (
     <React.Fragment>
-        <h1 className={classes.header}>Technologies</h1>
+        <h1 className={classes.header} id="technologies">Technologies</h1>
       <section className={classes.section}>
         <ul>
           <li>

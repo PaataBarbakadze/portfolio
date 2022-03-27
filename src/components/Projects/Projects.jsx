@@ -34,7 +34,7 @@ const projects = [
 const Projects = () => {
   return (
     <React.Fragment>
-      <h1 className={classes.header}>Projects</h1>
+      <h1 className={classes.header} id="projects">Projects</h1>
       <section className={classes.section}>
         {projects &&
           projects.map((project) => (
