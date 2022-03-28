@@ -12,7 +12,7 @@ const AboutMe = () => {
       <section className={classes.section} id="about">
         <div className={classes.left}>
           <h1>Hello, I'm <span>Pako</span>.</h1>
-          <h2>developer form Tbilisi, Georgia.</h2>
+          <h2>developer from Tbilisi, Georgia.</h2>
         </div>
         <div className={classes.right}>
           <img src={Me} alt="me" />
@@ -22,7 +22,7 @@ const AboutMe = () => {
           <p>I enjoy taking complex problems and trying my best to fix them,
             thats probably why i like JDM cars. I also love logic and structure
             of coding and always strive to write elegant and effective code,
-            whether it be HTML, CSS , JavaScript or JAVA.</p>
+            whether it be JavaScript or JAVA.</p>
           <p>When i am not coding or studing, you'll find me in gym lifting some heavy weights.</p>
         </div>
       <SectionDivider />

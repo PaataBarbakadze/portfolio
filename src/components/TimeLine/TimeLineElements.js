@@ -46,7 +46,7 @@ let timelineElements = [
     },
     {
       id: 6,
-      title: "Udemy online curses",
+      title: "Udemy online course",
       location: "Tbilisi, Georgia",
       description:
         "Bought hmtl, css, javascript and react courses on udemy.",
@@ -55,7 +55,7 @@ let timelineElements = [
     },
     {
       id: 7,
-      title: "Udemy online curses",
+      title: "Udemy online course",
       location: "Tbilisi, Georgia",
       description:
         "Bought Node.js course, learnt about express, mongoDB and Next.js",
