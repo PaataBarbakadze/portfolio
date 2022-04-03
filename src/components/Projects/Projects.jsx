@@ -4,6 +4,7 @@ import ProjectCards from "./ProjectCards";
 import SectionDivider from "../../helpers/SectionDivider/SectionDivider";
 
 import pirateit from "../../icons/pirateit.png";
+import EvveWeather from '../../icons/evveweather.png'
 
 import classes from "./Project.module.css";
 
@@ -17,10 +18,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Pirateit",
+    title: "EvveWeather",
     description:
-      "Gaming site demo, made using React, Node.js, Express and MongoDB. The App is called pirateit, administrator can post new games and users can browse and download them.",
-    image: pirateit,
+      "Current weather app, using api from https://www.weatherapi.com/.",
+    image: EvveWeather,
   }
 ];
 
