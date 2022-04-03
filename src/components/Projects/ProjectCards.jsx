@@ -7,7 +7,7 @@ const ProjectCards = ({ project }) => {
     <React.Fragment>
       <section className={classes.section}>
         <a
-          href="https://pirateit.netlify.app/"
+          href={project.link}
           target="_blank"
           rel="noopener noreferrer"
         >

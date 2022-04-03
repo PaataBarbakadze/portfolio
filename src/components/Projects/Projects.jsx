@@ -14,6 +14,7 @@ const projects = [
     title: "Pirateit",
     description:
       "Gaming site demo, made using React, Node.js, Express and MongoDB. The App is called pirateit, administrator can post new games and users can browse and download them.",
+    link:'https://pirateit.netlify.app/',
     image: pirateit,
   },
   {
@@ -21,6 +22,7 @@ const projects = [
     title: "EvveWeather",
     description:
       "Current weather app, using api from https://www.weatherapi.com/.",
+    link:'https://evveweather.netlify.app/',
     image: EvveWeather,
   }
 ];
