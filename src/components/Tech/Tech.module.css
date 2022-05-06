@@ -48,6 +48,6 @@
   @media only screen and (max-width: 550px) {
       :root {
         --element-width: 50px;
-        --fs-h2: 12px;
+        --fs-h2: 11px;
         }
   }

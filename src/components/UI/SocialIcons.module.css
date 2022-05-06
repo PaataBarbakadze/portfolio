@@ -1,21 +1,10 @@
-:root{
-    --width : 175px;
-}
-
 .icons{
     display: flex;
-    justify-content: space-between;
-    width: var(--width);
+    justify-content: flex-start;
 }
 
-@media only screen and (max-width: 960px){
-    :root{
-        --width : 150px;
-    }
-}
-
-@media only screen and (max-width: 550px){
-    :root{
-        --width : 120px;
-    }
+.icons img{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
 }
