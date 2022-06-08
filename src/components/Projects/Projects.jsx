@@ -6,6 +6,7 @@ import SectionDivider from "../../helpers/SectionDivider/SectionDivider";
 import pirateit from "../../icons/pirateit.png";
 import EvveWeather from "../../icons/evveweather.png";
 import Aestheroom from '../../icons/aestheroom.png'
+import Ecommerce from '../../icons/ecommerce.png'
 
 import classes from "./Project.module.css";
 
@@ -33,6 +34,14 @@ const projects = [
       "Furniture website demo, made using React and Redux.",
     link: "https://aestheroom.netlify.app/",
     image: Aestheroom,
+  },
+  {
+    id: 4,
+    title: "Ecommerce",
+    description:
+      "Ecommerce website demo, made using React and Redux.",
+    link: "https://ecommerce-storefront.netlify.app/",
+    image: Ecommerce,
   },
 ];
 
