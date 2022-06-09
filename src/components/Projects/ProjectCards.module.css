@@ -2,13 +2,15 @@
   --fs-h1: 30px;
   --fs-p: 20px;
   --section-width: 45%;
-  --preview-height: 275px;
+  --section-height: 525px;
+  --preview-height: 300px;
 }
 
 .section {
   margin: 20px 0;
   display: flex;
   width: var(--section-width);
+  height: var(--section-height);
   flex-direction: column;
   box-shadow: 0px 10px 20px rgba(236, 231, 231, 0.15);
 }
@@ -16,12 +18,13 @@
 .preview {
   width: 100%;
   height: var(--preview-height);
+  object-fit: fill;
 }
 
 .section h1 {
   text-align: center;
   font-size: var(--fs-h1);
-  margin: 20px;
+  margin: 5px 0;
 }
 
 .section p {
@@ -34,14 +37,16 @@
     --fs-h1: 25px;
     --fs-p: 18px;
     --section-width: 45%;
+    --section-height: 450px;
     --preview-height: 175px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-    :root {
-        --fs-h1: 22px;
-        --fs-p: 16px;
-        --section-width: 100%;
-      }
+  :root {
+    --fs-h1: 22px;
+    --fs-p: 16px;
+    --section-width: 100%;
+    --section-height: 375px;
+  }
 }
